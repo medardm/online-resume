@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
-title: Online Resume
-url:
-baseurl:
+title: Resume - Medard Mandane
+url: https://medardm.github.io/online-resume/
+baseurl: https://medardm.github.io/online-resume/
 
 # Sass setting
 sass:

@@ -1,34 +1,34 @@
 basic:
-  name: Foo Bar                      # name
-  title: Backend Developer           # job title
+  name: Medard Mandane                      # name
+  title: Back-End Web Developer           # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/profile.png # avatar file path
+    path: /assets/images/avatar.png # avatar file path
 
 contact:
   # meta
-  location: Beijing, China # location
-  email: me@example.com    # email address
-  phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  location: Albay, Philippines # location
+  email: medardm13@gmail.com    # email address
+  # phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: medardm.github.io     # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender:                  # gender or pronoun
-  birthday:                # birthday
-  nationality:             # nationality
-  visa:                    # passport visa
-  drivinglicense:          # driving licence
+#  gender:                  # gender or pronoun
+#  birthday:                # birthday
+#  nationality:             # nationality
+#  visa:                    # passport visa
+#  drivinglicense:          # driving licence
 
   # contact
   wechat:                  # username
   whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  telegram:                # username          | https://t.me/username
+  telegram:                 # username          | https://t.me/username
   messenger:               # username          | https://m.me/username
   line:                    # lineid            | https://line.me/R/ti/p/@lineid
   viber:                   # username          | https://vb.me/username
   threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github:                  # username          | https://github.com/username
+  github:                  medardm # username          | https://github.com/username
   gitlab:                  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
@@ -83,9 +83,9 @@ profile:
   order: 1
   title: Profile
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
+    Highly skilled and results-oriented Web Developer with over 4 years of experience specializing in back-end development. Proficient in designing and implementing robust server-side applications, databases, and APIs to drive seamless and secure web experiences. Adept at optimizing code for efficiency, performance, and scalability. Strong problem-solving abilities and a commitment to delivering clean, maintainable code.
 
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
+    Passionate about staying current with emerging web technologies and best practices, I have a proven track record of successfully contributing to cross-functional development teams and collaborating closely with front-end developers, designers, and project stakeholders.
 
 experience:
   show: true
@@ -95,57 +95,62 @@ experience:
     The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
-    - company: Second Company
-      link: '#'
+    - company: SparkPoint Technologies Inc.
+      link: https://sparkpoint.io/
+      tags: Full-time, remote
+      date: 2019.08 - current
+      role: Backend Web Developer
+      location: PH
+      description: |
+        + Conducted rigorous code reviews, enhancing code quality, security, and adherence to industry best practices.
+        + Collaborated closely with cross-functional teams, including project managers, designers, and front-end developers, to ensure successful project outcomes.
+        + Continuously researched and implemented emerging technologies, optimizing system performance and enhancing development efficiency.
+        + Played a key role in resolving technical challenges and troubleshooting complex issues, ensuring uninterrupted system functionality.
+        + Designed and implemented efficient back-end solutions, optimizing code for performance and scalability.
+        + Ensured data integrity and optimized query performance through the design and maintenance of databases, resulting in efficient data storage and retrieval.
+        + Evaluated and recommended software solutions, including third-party applications and custom development, to meet business needs and enhance software performance.
+        + Assisted in project management activities, such as project planning, task scheduling, and resource allocation, to ensure on-time and on-budget project delivery.
+    - company: WyLog Inc.
+      link:
       tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+      date: 2018.05 - 2019.05
+      role: Junior Web Developer
+      location: PH
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        + Aided in maintaining an existing web application that uses CodeIgniter framework. Worked on the Back-End side mainly as well as in the Front-End.
+        + Led the integration of Google Analytics data in the Dashboard of the web app.
+        + Volunteered on working on an internal project that helped in assisting the HR in food subsidy
+        in a form of a web app.
 
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
-
-project:
-  show: true
-  order: 3
-  title: Projects
-  description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
-  items:
-    - name: Personal project
-      link: '#'
-      tags:
-      date: 2015 - 2017
-      description: |
-        Personal project description...
-        + First
-        + Second
-
-    - name: OSS project
-      link:
-      tags: committer
-      date:
-      description: |
-        OSS project description...
-        + First
-        + Second
+#project:
+#  show: true
+#  order: 3
+#  title: Projects
+#  description: |
+#    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+#
+#    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+#
+#    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+#
+#  items:
+#    - name: Personal project
+#      link: '#'
+#      tags:
+#      date: 2015 - 2017
+#      description: |
+#        Personal project description...
+#        + First
+#        + Second
+#
+#    - name: OSS project
+#      link:
+#      tags: committer
+#      date:
+#      description: |
+#        OSS project description...
+#        + First
+#        + Second
 
 skill:
   show: true

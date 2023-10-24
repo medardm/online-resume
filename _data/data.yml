@@ -369,33 +369,33 @@ reference:
   order: 14
   title: References
   description: |
-    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
-
-    It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
-
-    When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
-
-    It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
 
   items:
-    - name: Foo One
-      link: '#'
-      title: Backend Developer
-      institution: Second Company
-      address: 1234 Example St, XXX, XY 11111
-      email: foo.one@example.com
-      phone: 111-222-333
+    - name: Rico Roberto Zuñiga
+      link: https://www.linkedin.com/in/ricoz/
+      title: Chief Technology Officer
+      institution: SparkPoint Technologies, Inc.
+#      address: 1234 Example St, XXX, XY 11111
+      email: blockchain@outlook.ph
+      phone: +639667660529
       description: |
-        Foo One was my colleague in Second Company.
 
-    - name: Bar Two
-      link:
-      title: Professor
-      institution: Example University
-      address: 4321 Example St, YYY, XY 22222
-      email: bar.two@example.com
-      phone: 444-555-666
+    - name: Clenisa Mae Vergara
+      link: https://www.linkedin.com/in/clenisa-mae-vergara-524b61109/
+      title: Senior Lead Software Quality Assurance Analyst
+      institution: WYlog, Inc.
+#      address: 1234 Example St, XXX, XY 11111
+      email: cmvergara0320@gmail.com
+      phone: +639484575757
       description: |
-        Bar Two was my advisor at Example University.
+
+    - name: Quiamenh Sarza
+      link: https://www.linkedin.com/in/quiamenhsarza/
+      title: Senior Web Developer
+      institution: Freelancer
+#      address: 4321 Example St, YYY, XY 22222
+      email: quiamenhsarza@gmail.com
+      phone: +639162273346
+      description: |
 
 close: <strong>Sorry, my resume has been hidden.</strong>

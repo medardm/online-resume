@@ -45,6 +45,7 @@ Features:
 - Open `https://YOUR_GITHUB_USERNAME.github.io/online-resume` in your browser.
 - Now you can see the resume page.
 - Edit the `_data/data.yml` file directly to update your resume.
+- If you would like to run the site locally check this [link](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
 #### Customization
 

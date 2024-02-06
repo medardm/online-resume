@@ -1,8 +1,8 @@
 basic:
   name: Medard Mandane                      # name
-  title: Back-End Web Developer           # job title
+  title: Web Developer           # job title
   avatar:
-    show: true                       # show or hide avatar
+    show: false                       # show or hide avatar
     path: /assets/images/avatar.png # avatar file path
 
 contact:
@@ -83,7 +83,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Highly skilled and results-oriented Full-Stack Web Developer with over 4 years of experience specializing in back-end development. Proficient in designing and implementing robust server-side applications, databases, and APIs to drive seamless and secure web experiences. Adept at optimizing code for efficiency, performance, and scalability. Strong problem-solving abilities and a commitment to delivering clean, maintainable code.
+    Experienced Web Developer focused on back-end development. Skilled in building server-side applications, databases, and APIs for secure web uses. Good at improving code for better performance and expanding it easily. Great at solving problems and writing neat, easy-to-understand code.
 
 experience:
   show: true
@@ -96,17 +96,15 @@ experience:
     - company: SparkPoint Technologies Inc.
       link: https://sparkpoint.io/
       tags: Full-time, remote
-      date: 2019.08 - current
-      role: Full-Stack Web Developer
+      date: October 2019 - current
+      role: Web Developer
       location: PH
       description: |
-        + Conducted rigorous code reviews, enhancing code quality, security, and adherence to industry best practices.
-        + Collaborated closely with cross-functional teams, including designers, and front-end developers, to ensure successful project outcomes.
-        + Played a key role in resolving technical challenges and troubleshooting complex issues, ensuring uninterrupted system functionality.
-        + Designed and implemented efficient back-end solutions, optimizing code for performance and scalability.
-        + Ensured data integrity and optimized query performance through the design and maintenance of databases, resulting in efficient data storage and retrieval.
-        + Evaluated and recommended software solutions, including third-party applications and custom development, to meet business needs and enhance software performance.
-        + Assisted in project management activities, such as project planning, task scheduling, and resource allocation, to ensure on-time and on-budget project delivery.
+        + Handled most back-end web development tasks such as implementing business logic, managing databases, ensuring data integrity, and improving server performance.
+        + Supervised the majority of the company's web-app projects to make sure they functioned as expected
+        + Helped in managing the **Web Server**, **Github Organization**, **Slack** and **Discord** channels
+        + Implemented basic CI/CD in Github that checks for code quality, executing tests and deployment
+
     - company: WyLog Inc.
       link:
       tags: Full-time
@@ -114,11 +112,10 @@ experience:
       role: Junior Web Developer
       location: PH
       description: |
-        + Aided in maintaining an existing web application that uses CodeIgniter framework.
-        + I worked on the Back-End side mainly and aided as well in the Front-End.
-        + Led the integration of Google Analytics data in the Dashboard of the web app.
-        + Volunteered on working on an internal project that helped in assisting the HR in food subsidy
-        in a form of a web app.
+        + Aided in maintaining an existing web application that uses **CodeIgniter** framework
+        + Worked on the Back-End side mainly and aided as well in the Front-End
+        + Led the integration of **Google Analytics** data in the Dashboard of the web app
+        + Volunteered on an internal project to develop a web app assisting HR with food subsidies
 
 project:
   show: true
@@ -132,33 +129,97 @@ project:
 #    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
 
   items:
-    - name: NextJS-Thirdweb webkit
+    - name: Web-app Project (Confidential) [SparkPoint]
+      tags: NextJS, ThirdWeb SDK, Prisma, MySQL, PlanetScale
+      date: 2023 - Paused
+      description: |
+        This project was temporarily put on hold as the company shifted its focus to blockchain development.
+        + Developed a webkit, using **NextJS** and the **ThirdWeb SDK**, that can be utilized for the development of other apps
+          + Created a directory structure and introduced several features, drawing inspiration from **Laravel**
+          + The webkit employs **Tailwind** for styling, uses **Prisma** as the **ORM**, and integrates **PlanetScale** for database management
+        + Forked the **Merkle Distributor** package from **Uniswap** and modified it for reusability in the app
+        + Leveraged the capabilities of **AI**, specifically **Jetbrains AI** and **Cody**, for the development of the platform
+        + Incorporate the necessary smart contracts to support the main features of the app
+        <br><br>
+
+    - name: Outsourced Project (Confidential) [SparkPoint]
+      tags: Laravel, VueJS
+      date: 2023 - Current
+      description: |
+        We were commissioned to work on a project by an outside firm, which furnished us with a webkit for both front-end (developed in **VueJS**) and back-end API (constructed with **Laravel 9**).
+        + Worked in tandem with end-users, stakeholders, and our team to determine the application's requirements.
+        + Constructed a user-oriented flow diagram, rooted in both user requirements, their research outcomes, and our independent findings
+        + Developed technical diagrams, including **Entity-Relationship Diagram (ERD)** and **API Diagram** using **Miro**
+        + Evaluate user stories and break them down into concise tasks for tracking in **Jira**. Appropriately assign these tasks to either front-end or back-end development as appropriate
+        + Conducted enhancements in **unit tests**, such as refining the storage mocking and seeding default users by category
+        + Undertake the bulk of API development tasks, utilizing **Postman** for assistance, along with conducting feature and unit testing
+        + Support API integration and assist in enhancing the front-end component (**VueJS**)
+        <br><br>
+
+    - name: SparkSwap Projects [SparkPoint]
       link: 'https://sparkswap.finance/'
-      tags: sparkpoint, solo, crypto, blockchain, nextjs
-      date: Nov 2023 - Dec 2023
+      tags: ReactJs, Smart Contracts, MetaMask
+      date: 2022 - 2023
       description: |
-        A webkit built using Nextjs but with directory structure and some functionalities inspired by Laravel.
+        **General**
+        <br>
+        Most projects are based on a fork from [PancakeSwap](https://pancakeswap.finance/) that is built using ReactJS.
+        + Resolved critical issues, including the cessation of support for certain package versions and version incompatibilities
+        + Helped in identifying new and required features, enhancements, and bugs
+        + Insisted on adherence to standards, including proper naming conventions and other best practices
+        + Assisted with general modifications, bug fixes, and testing processes
+        + Polished most validations and computations especially when it comes to balances and totals
+        + Gave suggestions on the essential features of the smart contracts such as emergency withdraw for the farms
+        + Made several adjustments that diverged from the initial mock-up, and enhanced the process steps as needed for a better user experience
+        
+        **Decentralized Exchange (DEX)**: 
+        An exchange that allows users to trade cryptocurrencies without the need for a third-party.
+        + Helped in the development of the step progress that guides the user through the swapping process
+        + Confirm that the trading feature and settings, including aspects such as the transaction slippage and deadline, are functioning as intended
+        
+        **Multisend Platform**: 
+        A crypto staking platform where users can earn crypto by depositing crypto into the platform.
+        + Assisted in identifying the unique aspects of the app like lower fees and the simplification of steps
+        + Developed the multi-send feature, handling aspects such as validation, calculations, and initiation of the blockchain transaction
+        
+        **Staking Platform**: 
+        A crypto staking platform where users can earn crypto by depositing crypto into the platform.
+        + Integrated the new staking contracts created by our blockchain developer to the app
+        + Ensured precision in both the staked value and staking rewards, recognizing that all figures should be treated as big numbers
+        + Dealt with major issues such as the inability to stake, the inability to withdraw, and the inability to claim rewards caused by code regressions
+        
+        **Token Launchpad**: 
+        A platform for launching cryptocurrency projects to distribute tokens and increase liquidity.
+        + Focused on the development of the functionalities such as depositing, withdrawing, and claiming tokens
+        
+        **NFT Platform**: 
+        A simple platform where users can create their own NFTs
+        + Optimized the creation of NFTs and fixed the issues that arose from the initial mock-up
+        <br><br>
 
-    - name: SparkSwap DEX
-      link: 'https://sparkswap.finance/'
-      tags: sparkpoint, team project, crypto, blockchain, reactjs
-      date: Jul 2022 - Jul 2023
-      description: |
-        A decentralized exchange that allows users to trade cryptocurrencies without the need for a third-party.
-
-    - name: SparkSwap Multisender
-      tags: sparkpoint, team project, crypto, blockchain, reactjs
-      link: 'https://multisend.sparkswap.finance/'
-      date: Oct 2022 - Jul 2023
-      description: |
-        A sub-project under SparkSwap that allows users to send tokens to multiple recipients using their crypto wallet address.
-
-    - name: SparkEarn
-      tags: sparkpoint, solo, crypto, blockchain, laravel, php, mysql
+    - name: SparkEarn [SparkPoint]
+      tags: Laravel, Blade, MetaMask, MySQL
       link: 'https://earn.sparkpoint.io/'
-      date: Feb 2020 - May 2021
+      date: 2020 - 2021
       description: |
-        This is a platform where users can earn SRK token and other cryptos by completing bounties.
+        A platform where users can earn SRK token and other cryptos by completing bounties.
+        + Designed the database structure based on the requirements of the application
+        + Developed all the required features such as adding of bounties, participating in bounties and sending of rewards through **MetaMask**
+        + Implemented a referral system that allows users to earn more SRK tokens by referring others
+        <br><br>
+
+    - name: Dlvery Expark Back-Office [SparkPoint]
+      tags: Laravel, Blade, MySQL
+      date: 2019
+      description: |
+        The Admin dashboard and API provider for a delivery platform enables users to order food and drinks from restaurants, and they can earn SRK rewards for each order made.
+        + Designed the database structure based on the requirements of the application
+        + Developed the **Admin dashboard** for managing the merchants, news, customers and dispatching of orders
+        + Implemented a delivery fee calculation based on distance using **Google Maps API**
+        + Developed all necessary API endpoints, including those for placing orders and managing user profiles in the mobile app
+        + Implemented a **referral system** that allows users to earn more SRK tokens by referring others
+        + Implemented a **voucher system** generates a unique code that can be used to redeem rewards or discounts for orders
+        
 
 skill:
   show: true
@@ -169,11 +230,9 @@ skill:
   groups:
     - name: General
       item:
-        - Diagramming
         - Git Version Control
+        - Diagramming
         - Blockchain
-        - TDD
-        - OOP
         - AI-Assisted Development
     - name: Languages
       item:

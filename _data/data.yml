@@ -257,6 +257,7 @@ skill:
         - Basic Shell Scripting
     - name: Tools/Software
       item:
+        - Docker (Basics)
         - Miro
         - Jira
         - Asana

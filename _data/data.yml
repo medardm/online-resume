@@ -9,7 +9,7 @@ contact:
   # meta
   location: Albay, Philippines # location
   email: medardm13@gmail.com    # email address
-  # phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  phone: +639499820506 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
 #  website: medardm.github.io/online-resume     # site URL without schema, like example.com, will automatically prepand "https://"
 
 #  gender:                  # gender or pronoun
@@ -96,135 +96,39 @@ experience:
     - company: SparkPoint Technologies Inc.
       link: https://sparkpoint.io/
       tags: Full-time, remote
-      date: October 2019 - current
+      date: August 2019 - current
       role: Web Developer
       location: PH
       description: |
-        + Handled most back-end web development tasks such as implementing business logic, managing databases, ensuring data integrity, and improving server performance.
-        + Supervised the majority of the company's web-app projects to make sure they functioned as expected
+        + Handled most back-end web development tasks such as integrating smart contracts, implementing business logic, managing databases, ensuring data integrity, and optimizing app performance
+        + Assisted in tool selection and strategizing optimal approaches.
+        + Produced key technical diagrams, like ERD and activity flows, for projects.
+        + Supervised the majority of the company's **DeFi** web-app projects to make sure they functioned as expected
         + Helped in managing the **Web Server**, **Github Organization**, **Slack** and **Discord** channels
-        + Implemented basic CI/CD in Github that checks for code quality, executing tests and deployment
+        + Implemented **CI/CD** in **Github** that checks for code quality, executing tests and deployment
+        + Forked and modified several open source packages for the reusability in certain projects
+        + Managed key compatibility issues and solved complex problems.
+        + Leveraged Copilot, Jetbrains AI, and Cody's AI capabilities for comprehensive R&D and development endeavors. 
+        + Confirmed comprehensive functionality in projects by conducting thorough testing and precise code review.
+        + Assisted in pinpointing necessary enhancements, new features, and bugs.
+        + Insisted on adherence to standards, including proper naming conventions and other best practices
 
     - company: WyLog Inc.
       link:
       tags: Full-time
-      date: 2018.05 - 2019.05
+      date: May 2018 - August 2019
       role: Junior Web Developer
       location: PH
       description: |
         + Aided in maintaining an existing web application that uses **CodeIgniter** framework
         + Worked on the Back-End side mainly and aided as well in the Front-End
         + Led the integration of **Google Analytics** data in the Dashboard of the web app
-        + Volunteered on an internal project to develop a web app assisting HR with food subsidies
-
-project:
-  show: true
-  order: 3
-  title: Projects
-  description: |
-#    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-#
-#    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-#
-#    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
-  items:
-    - name: Web-app Project (Confidential) [SparkPoint]
-      tags: NextJS, ThirdWeb SDK, Prisma, MySQL, PlanetScale
-      date: 2023 - Paused
-      description: |
-        This project was temporarily put on hold as the company shifted its focus to blockchain development.
-        + Developed a webkit, using **NextJS** and the **ThirdWeb SDK**, that can be utilized for the development of other apps
-          + Created a directory structure and introduced several features, drawing inspiration from **Laravel**
-          + The webkit employs **Tailwind** for styling, uses **Prisma** as the **ORM**, and integrates **PlanetScale** for database management
-        + Forked the **Merkle Distributor** package from **Uniswap** and modified it for reusability in the app
-        + Leveraged the capabilities of **AI**, specifically **Jetbrains AI** and **Cody**, for the development of the platform
-        + Incorporate the necessary smart contracts to support the main features of the app
-        <br><br>
-
-    - name: Outsourced Project (Confidential) [SparkPoint]
-      tags: Laravel, VueJS
-      date: 2023 - Current
-      description: |
-        We were commissioned to work on a project by an outside firm, which furnished us with a webkit for both front-end (developed in **VueJS**) and back-end API (constructed with **Laravel 9**).
-        + Worked in tandem with end-users, stakeholders, and our team to determine the application's requirements.
-        + Constructed a user-oriented flow diagram, rooted in both user requirements, their research outcomes, and our independent findings
-        + Developed technical diagrams, including **Entity-Relationship Diagram (ERD)** and **API Diagram** using **Miro**
-        + Evaluate user stories and break them down into concise tasks for tracking in **Jira**. Appropriately assign these tasks to either front-end or back-end development as appropriate
-        + Conducted enhancements in **unit tests**, such as refining the storage mocking and seeding default users by category
-        + Undertake the bulk of API development tasks, utilizing **Postman** for assistance, along with conducting feature and unit testing
-        + Support API integration and assist in enhancing the front-end component (**VueJS**)
-        <br><br>
-
-    - name: SparkSwap Projects [SparkPoint]
-      link: 'https://sparkswap.finance/'
-      tags: ReactJs, Smart Contracts, MetaMask
-      date: 2022 - 2023
-      description: |
-        **General**
-        <br>
-        Most projects are based on a fork from [PancakeSwap](https://pancakeswap.finance/) that is built using ReactJS.
-        + Resolved critical issues, including the cessation of support for certain package versions and version incompatibilities
-        + Helped in identifying new and required features, enhancements, and bugs
-        + Insisted on adherence to standards, including proper naming conventions and other best practices
-        + Assisted with general modifications, bug fixes, and testing processes
-        + Polished most validations and computations especially when it comes to balances and totals
-        + Gave suggestions on the essential features of the smart contracts such as emergency withdraw for the farms
-        + Made several adjustments that diverged from the initial mock-up, and enhanced the process steps as needed for a better user experience
-        
-        **Decentralized Exchange (DEX)**: 
-        An exchange that allows users to trade cryptocurrencies without the need for a third-party.
-        + Helped in the development of the step progress that guides the user through the swapping process
-        + Confirm that the trading feature and settings, including aspects such as the transaction slippage and deadline, are functioning as intended
-        
-        **Multisend Platform**: 
-        A crypto staking platform where users can earn crypto by depositing crypto into the platform.
-        + Assisted in identifying the unique aspects of the app like lower fees and the simplification of steps
-        + Developed the multi-send feature, handling aspects such as validation, calculations, and initiation of the blockchain transaction
-        
-        **Staking Platform**: 
-        A crypto staking platform where users can earn crypto by depositing crypto into the platform.
-        + Integrated the new staking contracts created by our blockchain developer to the app
-        + Ensured precision in both the staked value and staking rewards, recognizing that all figures should be treated as big numbers
-        + Dealt with major issues such as the inability to stake, the inability to withdraw, and the inability to claim rewards caused by code regressions
-        
-        **Token Launchpad**: 
-        A platform for launching cryptocurrency projects to distribute tokens and increase liquidity.
-        + Focused on the development of the functionalities such as depositing, withdrawing, and claiming tokens
-        
-        **NFT Platform**: 
-        A simple platform where users can create their own NFTs
-        + Optimized the creation of NFTs and fixed the issues that arose from the initial mock-up
-        <br><br>
-
-    - name: SparkEarn [SparkPoint]
-      tags: Laravel, Blade, MetaMask, MySQL
-      link: 'https://earn.sparkpoint.io/'
-      date: 2020 - 2021
-      description: |
-        A platform where users can earn SRK token and other cryptos by completing bounties.
-        + Designed the database structure based on the requirements of the application
-        + Developed all the required features such as adding of bounties, participating in bounties and sending of rewards through **MetaMask**
-        + Implemented a referral system that allows users to earn more SRK tokens by referring others
-        <br><br>
-
-    - name: Dlvery Expark Back-Office [SparkPoint]
-      tags: Laravel, Blade, MySQL
-      date: 2019
-      description: |
-        The Admin dashboard and API provider for a delivery platform enables users to order food and drinks from restaurants, and they can earn SRK rewards for each order made.
-        + Designed the database structure based on the requirements of the application
-        + Developed the **Admin dashboard** for managing the merchants, news, customers and dispatching of orders
-        + Implemented a delivery fee calculation based on distance using **Google Maps API**
-        + Developed all necessary API endpoints, including those for placing orders and managing user profiles in the mobile app
-        + Implemented a **referral system** that allows users to earn more SRK tokens by referring others
-        + Implemented a **voucher system** generates a unique code that can be used to redeem rewards or discounts for orders
-        
+        + Volunteered on an internal project to develop a web app assisting HR with food subsidies <br> <br>
 
 skill:
   show: true
-  order: 4
-  title: Skills | Tech Stack | Tools
+  order: 3
+  title: Explored / Used Skills | Tech Stack | Tools
   description: |
 
   groups:
@@ -257,14 +161,108 @@ skill:
         - Basic Shell Scripting
     - name: Tools/Software
       item:
-        - Docker (Basics)
+        - Docker
         - Miro
         - Jira
         - Asana
-        - Microsoft Visio
+        - Visio
         - WebStorm
         - PHPStorm
         - Make
+
+project:
+  show: true
+  order: 4
+  title: Projects
+  description: |
+#    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+#
+#    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+#
+#    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+
+  items:
+    - name: Outsourced Project to the Company
+      tags: SparkPoint, Laravel, VueJS
+      date: 2023 - Current
+      description: |
+        We were commissioned to work on a project by an outside firm, which furnished us with a webkit for both front-end (developed in **VueJS**) and back-end API (constructed with **Laravel 9**).
+        + Worked in tandem with end-users, stakeholders, and our team to determine the application's requirements.
+        + Constructed a user-oriented flow diagram, rooted in both user requirements, their research outcomes, and our independent findings
+        + Developed technical diagrams, including **Entity-Relationship Diagram (ERD)** and **API Diagram** using **Miro**
+        + Evaluate user stories and break them down into concise tasks for tracking in **Jira**. Appropriately assign these tasks to either front-end or back-end development as appropriate
+        + Conducted enhancements in **unit tests**, such as refining the storage mocking and seeding default users by category
+        + Undertake the bulk of API development tasks, utilizing **Postman** for assistance, along with conducting feature and unit testing
+        + Support API integration and assist in enhancing the front-end component (**VueJS**)
+
+    - name: SparkSwap - Javascript-Driven DeFi Projects at SparkPoint
+      link: 'https://sparkswap.finance/'
+      tags: SparkPoint, ReactJs, Smart Contracts, MetaMask
+      date: 2022 - 2023
+      description: |
+        **General**
+        <br>
+        Most projects are built using ReactJS and based on [PancakeSwap](https://pancakeswap.finance/)
+        + Helped in identifying new and required features, enhancements, and bugs
+        + Insisted on adherence to standards, including proper naming conventions and other best practices
+        + Assisted with general modifications, bug fixes, and testing processes
+        + Polished most validations and computations especially when it comes to balances and totals
+        + Gave suggestions on the essential features of the smart contracts such as emergency withdraw for the farms
+        + Made several adjustments that diverged from the initial mock-up, and enhanced the process steps as needed for a better user experience
+        
+        **Cryptocurrency Airdrop Hosting Platform**: 
+        + Developed a **NextJS** and **ThirdWeb SDK** webkit, inspired by **Laravel**, leveraging **Prisma** and **PlanetScale** for ORM and database management, reusable for multiple DeFi projects.
+        + Forked an **Merkle Distributor** from **Uniswap** and modified it for reusability in the app
+        
+        **Decentralized Exchange (DEX)**: 
+        An exchange that allows users to trade cryptocurrencies without the need for a third-party.
+        + Helped in the development of the step progress that guides the user through the swapping process
+        + Confirm that the trading feature and settings, including aspects such as the transaction slippage and deadline, are functioning as intended
+        
+        **Multisend Platform**: 
+        A crypto staking platform where users can earn crypto by depositing crypto into the platform.
+        + Assisted in identifying the unique aspects of the app like lower fees and the simplification of steps
+        + Developed the multi-send feature, handling aspects such as validation, calculations, and initiation of the blockchain transaction
+        
+        **Staking Platform**: 
+        A crypto staking platform where users can earn crypto by depositing crypto into the platform.
+        + Integrated the new staking contracts created by our blockchain developer to the app
+        + Ensured precision in both the staked value and staking rewards, recognizing that all figures should be treated as big numbers
+        + Dealt with major issues such as the inability to stake, the inability to withdraw, and the inability to claim rewards caused by code regressions
+        
+        **Token Launchpad**: 
+        A platform for launching cryptocurrency projects to distribute tokens and increase liquidity.
+        + Focused on the development of the functionalities such as depositing, withdrawing, and claiming tokens
+        
+        **NFT Platform**: 
+        A simple platform where users can create their own NFTs
+        + Optimized the creation of NFTs and fixed the issues that arose from the initial mock-up
+        <br><br>
+
+    - name: SparkEarn
+      tags: SparkPoint, Laravel, Blade, MetaMask, MySQL
+      link: 'https://earn.sparkpoint.io/'
+      date: 2020 - 2021
+      description: |
+        A platform where users can earn SRK token and other cryptos by completing bounties.
+        + Designed the database structure based on the requirements of the application
+        + Developed all the required features such as adding of bounties, participating in bounties and sending of rewards through **MetaMask**
+        + Implemented a referral system that allows users to earn more SRK tokens by referring others
+        <br><br>
+
+    - name: Dlvery Expark Back-Office
+      tags: SparkPoint, Laravel, Blade, MySQL
+      date: 2019
+      description: |
+        The Admin dashboard and API provider for a delivery platform enables users to order food and drinks from restaurants, and they can earn SRK rewards for each order made.
+        + Designed the database structure based on the requirements of the application
+        + Developed the **Admin dashboard** for managing the merchants, news, customers and dispatching of orders
+        + Implemented a delivery fee calculation based on distance using **Google Maps API**
+        + Developed all necessary API endpoints, including those for placing orders and managing user profiles in the mobile app
+        + Implemented a **referral system** that allows users to earn more SRK tokens by referring others
+        + Implemented a **voucher system** generates a unique code that can be used to redeem rewards or discounts for orders
+        
+
 
 education:
   show: true
@@ -443,6 +441,23 @@ reference:
   description: |
 
   items:
+
+    - name: Earl Julius Empic
+      title: Senior software engineer
+      institution: FullSpeed Technologies Inc.
+      email: Empicearl@gmail.com
+      phone: +639101262531
+      description: |
+
+    - name: Quiamenh Sarza
+      link: https://www.linkedin.com/in/quiamenhsarza/
+      title: Senior Web Developer
+      institution: Freelancer
+#      address: 4321 Example St, YYY, XY 22222
+      email: quiamenhsarza@gmail.com
+      phone: +639162273346
+      description: |
+
     - name: Bernard Quinzon Historillo
       link: https://www.linkedin.com/in/bernhistorillo/
       title: Full-Stack Web Developer
@@ -460,13 +475,12 @@ reference:
       phone: +639484575757
       description: |
 
-    - name: Quiamenh Sarza
-      link: https://www.linkedin.com/in/quiamenhsarza/
-      title: Senior Web Developer
-      institution: Freelancer
-#      address: 4321 Example St, YYY, XY 22222
-      email: quiamenhsarza@gmail.com
-      phone: +639162273346
-      description: |
+#    - name: Ma. Kristine Joy Ibañez
+#      title: Chief Executive Officer
+#      institution: CoDesign Technologies
+#      email: kristine.ignite@gmail.com
+#      phone: +639299703315
+#      description: |
+
 
 close: <strong>Sorry, my resume has been hidden.</strong>
